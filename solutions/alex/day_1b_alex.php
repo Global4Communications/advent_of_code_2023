@@ -1,6 +1,6 @@
 <?php
 
-$input = file_get_contents('../inputs/day_1_alex.txt');
+$input = file_get_contents('./day_1a.txt');
 $input = trim($input);
 $lines = explode(PHP_EOL, $input);
 

@@ -1,6 +1,6 @@
 <?php
 
-$calibrationDocument = file_get_contents("day_1_calibration_input.txt");
+$calibrationDocument = file_get_contents("day_1a_calibration_input.txt");
 $calibrationDocument = trim($calibrationDocument);
 
 $lines = explode("\n", $calibrationDocument);
